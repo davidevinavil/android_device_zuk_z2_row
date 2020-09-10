@@ -25,9 +25,9 @@ $(call inherit-product, device/zuk/z2_row/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit some common AOSP-OMS stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/revengeos/config/common.mk)
 
-PRODUCT_NAME := aosp_z2_row
+PRODUCT_NAME := revengeos_z2_row
 PRODUCT_DEVICE := z2_row
 PRODUCT_MANUFACTURER := ZUK
 PRODUCT_BRAND := ZUK
@@ -46,6 +46,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "ZUK/z2_row/z2_row:7.0/NRD90M/2.5.435_170525:user/release-keys"
-
-# Signing Keys
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/oss/keys/releasekey
