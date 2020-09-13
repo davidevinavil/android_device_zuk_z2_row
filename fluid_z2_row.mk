@@ -25,9 +25,9 @@ $(call inherit-product, device/zuk/z2_row/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit some common AOSP-OMS stuff.
-$(call inherit-product, vendor/revengeos/config/common.mk)
+$(call inherit-product, vendor/fluid/config/common.mk)
 
-PRODUCT_NAME := revengeos_z2_row
+PRODUCT_NAME := fluid_z2_row
 PRODUCT_DEVICE := z2_row
 PRODUCT_MANUFACTURER := ZUK
 PRODUCT_BRAND := ZUK

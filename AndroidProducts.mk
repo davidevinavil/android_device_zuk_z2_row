@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_z2_row.mk
+    $(LOCAL_DIR)/fluid_z2_row.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_z2_row-userdebug \
-    revengeos_z2_row-eng
+    fluid_z2_row-userdebug \
+    fluid_z2_row-eng
